@@ -1,0 +1,163 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reportContainer {
+    width:80%;
+}
+
+.schoolDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.schoolDetailsTextContainer {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoContainer {
+    width: 15%;
+    padding: 20px;
+}
+
+.schoolLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.schoolDetailsTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.schoolName {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -8px;
+}
+
+.address {
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.email {
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.reportCardPara {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.studentDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.listContainer {
+    width: 50%;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+dt {
+    width: 200px;
+    display: inline-block;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+td {
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    font-family: "Roboto";
+    text-align: center;
+
+}
+
+.subject-result-styling {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.signature {
+    height: 30px;
+}
+
+.resultsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.result {
+    margin: 2px;
+}
